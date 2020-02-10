@@ -1,0 +1,19 @@
+$ git config --global user.name "Jeremy Gray"
+$ git config --global user.email "jgray@brainstation.io"
+$ git config --global color.ui "auto"
+$ git config --global core.autocrlf true
+
+
+$ git config --global core.editor "atom --wait"
+$ git config --global core.editor "'c:/program files/sublime text 3/sublime_text.exe' -w"
+$ git config --global core.editor "'c:/program files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+
+$ mkdir mygitrepo
+$ cd mygitrepo
+
+
+$ git init
+$ git status
+
+$ ls -a
+#or dir -Force
